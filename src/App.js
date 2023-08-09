@@ -20,7 +20,7 @@ function App() {
             </div>
           );
         })}
-        <button>Clear All</button>
+        <button onClick={() => setHolidays([])}>Clear All</button>
       </section>
     </main>
   );
